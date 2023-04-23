@@ -1,0 +1,59 @@
+html {
+    background-color: antiquewhite;
+  }
+  
+  body {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  img {
+    height: 100%;
+  }
+  
+  div {
+    border: 2px solid burlywood;
+    margin: 10px;
+  }
+  
+  #introPic {
+    float: left;
+  }
+  
+  #bio {
+    float: right;
+  }
+  #bio > li {
+    padding: 2px;
+  }
+  
+  #pro {
+    width: auto;
+  }
+
+  @media screen and (max-width: 600px) {
+   * {
+    align-items: center;
+    width: 100%;
+    display: inline-block;\
+    
+   }
+   #bio, ul {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display:inline-block;
+    text-align: left;
+   }
+   #achievements {
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    align-items: center;
+    display: inline-block;
+
+   }
+  }
